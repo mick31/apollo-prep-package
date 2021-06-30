@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct HeroImageView: View {
-    var image: UIImage
+public struct HeroImageView: View {
+    private let image: UIImage
 
-    var body: some View {
+    public var body: some View {
         Image(uiImage: image)
             .resizable()
             .scaledToFill()
@@ -18,6 +18,10 @@ struct HeroImageView: View {
                    minHeight: 0, idealHeight: 100, maxHeight: .infinity,
                    alignment: .center)
             .cornerRadius(10.0)
+    }
+
+    init(image: UIImage) {
+        self.image = image
     }
 }
 
