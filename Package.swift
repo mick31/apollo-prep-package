@@ -15,6 +15,9 @@ let package = Package(
         .target(
             name: "ApolloPrepPackage",
             dependencies: [],
-            path: "ApolloPrepPackage/Sources")
+            path: "ApolloPrepPackage/Sources",
+            exlcude: [
+                "Info.plist"
+            ])
     ]
 )
