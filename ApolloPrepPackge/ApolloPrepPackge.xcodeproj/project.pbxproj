@@ -10,6 +10,7 @@
 		CDF113DA268CD65A00B4CDE8 /* ApolloPrepPackge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF113D0268CD65A00B4CDE8 /* ApolloPrepPackge.framework */; };
 		CDF113DF268CD65A00B4CDE8 /* ApolloPrepPackgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF113DE268CD65A00B4CDE8 /* ApolloPrepPackgeTests.swift */; };
 		CDF113E1268CD65A00B4CDE8 /* ApolloPrepPackge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF113D3268CD65A00B4CDE8 /* ApolloPrepPackge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF1140F268CD9A100B4CDE8 /* HeroImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF1140E268CD9A100B4CDE8 /* HeroImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		CDF113D9268CD65A00B4CDE8 /* ApolloPrepPackgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApolloPrepPackgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF113DE268CD65A00B4CDE8 /* ApolloPrepPackgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloPrepPackgeTests.swift; sourceTree = "<group>"; };
 		CDF113E0268CD65A00B4CDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF1140E268CD9A100B4CDE8 /* HeroImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		CDF113EC268CD6F300B4CDE8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CDF1140E268CD9A100B4CDE8 /* HeroImageView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				TargetAttributes = {
 					CDF113CF268CD65A00B4CDE8 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					CDF113D8268CD65A00B4CDE8 = {
 						CreatedOnToolsVersion = 12.4;
@@ -202,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF1140F268CD9A100B4CDE8 /* HeroImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +354,7 @@
 		CDF113E5268CD65A00B4CDE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -364,6 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.expedia.booking.ApolloPrepPackge;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,6 +379,7 @@
 		CDF113E6268CD65A00B4CDE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -395,6 +403,7 @@
 		CDF113E8268CD65A00B4CDE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ApolloPrepPackgeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -412,6 +421,7 @@
 		CDF113E9268CD65A00B4CDE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ApolloPrepPackgeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
