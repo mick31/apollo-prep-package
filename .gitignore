@@ -10,3 +10,4 @@ xcuserdata/
 *.xcscmblueprint
 .idea/
 .build
+.swiftpm/
