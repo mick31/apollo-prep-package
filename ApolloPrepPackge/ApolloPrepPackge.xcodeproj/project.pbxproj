@@ -11,6 +11,7 @@
 		CDF113DF268CD65A00B4CDE8 /* ApolloPrepPackgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF113DE268CD65A00B4CDE8 /* ApolloPrepPackgeTests.swift */; };
 		CDF113E1268CD65A00B4CDE8 /* ApolloPrepPackge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF113D3268CD65A00B4CDE8 /* ApolloPrepPackge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDF1140F268CD9A100B4CDE8 /* HeroImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF1140E268CD9A100B4CDE8 /* HeroImageView.swift */; };
+		CDF11413268CDC6700B4CDE8 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF11412268CDC6700B4CDE8 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		CDF113DE268CD65A00B4CDE8 /* ApolloPrepPackgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloPrepPackgeTests.swift; sourceTree = "<group>"; };
 		CDF113E0268CD65A00B4CDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF1140E268CD9A100B4CDE8 /* HeroImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroImageView.swift; sourceTree = "<group>"; };
+		CDF11412268CDC6700B4CDE8 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				CDF113EC268CD6F300B4CDE8 /* Sources */,
 				CDF113D3268CD65A00B4CDE8 /* ApolloPrepPackge.h */,
 				CDF113D4268CD65A00B4CDE8 /* Info.plist */,
+				CDF11412268CDC6700B4CDE8 /* Media.xcassets */,
 			);
 			path = ApolloPrepPackge;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF11413268CDC6700B4CDE8 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

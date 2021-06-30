@@ -23,6 +23,6 @@ struct HeroImageView: View {
 
 struct HeroImageView_Previews: PreviewProvider {
     static var previews: some View {
-        HeroImageView(image: UIImage(systemName: "cloud")!)
+        HeroImageView(image: UIImage(named: "BeachImage")!)
     }
 }
