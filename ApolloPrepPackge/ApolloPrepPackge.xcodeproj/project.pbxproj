@@ -71,6 +71,7 @@
 		CDF113D2268CD65A00B4CDE8 /* ApolloPrepPackge */ = {
 			isa = PBXGroup;
 			children = (
+				CDF113EC268CD6F300B4CDE8 /* Sources */,
 				CDF113D3268CD65A00B4CDE8 /* ApolloPrepPackge.h */,
 				CDF113D4268CD65A00B4CDE8 /* Info.plist */,
 			);
@@ -84,6 +85,13 @@
 				CDF113E0268CD65A00B4CDE8 /* Info.plist */,
 			);
 			path = ApolloPrepPackgeTests;
+			sourceTree = "<group>";
+		};
+		CDF113EC268CD6F300B4CDE8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
