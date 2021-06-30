@@ -1,0 +1,12 @@
+DerivedData/
+xcuserdata/
+.DS_Store
+.ruby-version
+.arcconfig
+*.profraw
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+.idea/
+.build
