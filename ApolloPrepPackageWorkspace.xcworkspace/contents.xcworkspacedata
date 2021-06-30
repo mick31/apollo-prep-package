@@ -5,6 +5,6 @@
       location = "group:Package.swift">
    </FileRef>
    <FileRef
-      location = "container:ApolloPrepPackge/ApolloPrepPackge.xcodeproj">
+      location = "container:/Users/micbennett/Development/projects/apollo-prep-package/ApolloPrepPackage/ApolloPrepPackage.xcodeproj">
    </FileRef>
 </Workspace>

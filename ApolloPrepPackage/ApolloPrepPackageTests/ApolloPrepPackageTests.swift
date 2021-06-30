@@ -1,14 +1,14 @@
 //
-//  ApolloPrepPackgeTests.swift
-//  ApolloPrepPackgeTests
+//  ApolloPrepPackageTests.swift
+//  ApolloPrepPackageTests
 //
 //  Created by Michael Bennett on 6/30/21.
 //
 
 import XCTest
-@testable import ApolloPrepPackge
+@testable import ApolloPrepPackage
 
-class ApolloPrepPackgeTests: XCTestCase {
+class ApolloPrepPackageTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

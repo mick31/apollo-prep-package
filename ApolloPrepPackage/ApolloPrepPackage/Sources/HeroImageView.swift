@@ -1,6 +1,6 @@
 //
 //  HeroImageView.swift
-//  ApolloPrepPackge
+//  ApolloPrepPackage
 //
 //  Created by Michael Bennett on 6/30/21.
 //
