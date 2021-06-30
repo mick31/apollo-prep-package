@@ -20,7 +20,7 @@ public struct HeroImageView: View {
             .cornerRadius(10.0)
     }
 
-    init(image: UIImage) {
+    public init(image: UIImage) {
         self.image = image
     }
 }
