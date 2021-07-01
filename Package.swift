@@ -10,17 +10,11 @@ let package = Package(
     products: [
         .library(name: "ApolloPrepPackage", targets: ["ApolloPrepPackage"]),
     ],
-    dependencies: [
-        .package(name: "Apollo",
-                 url: "https://github.com/apollographql/apollo-ios.git",
-                 .exact("0.44.0"))
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "ApolloPrepPackage",
-            dependencies: [
-                .product(name: "Apollo", package: "Apollo")
-            ],
+            dependencies: [],
             path: "ApolloPrepPackage/ApolloPrepPackage/Sources",
             exclude: [
                 "Info.plist"
